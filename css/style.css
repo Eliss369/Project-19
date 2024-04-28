@@ -32,6 +32,11 @@ body {
   margin: 0 auto;
   background-image: url(../img/bgi.header.jpg);
 }
+.header-flex {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 .logo {
   width: 189px;
   height: 72px;
@@ -107,10 +112,9 @@ body {
   margin-left: 178px;
   padding-top: 180px;
 }
-.hero-flex {
+.hero-social {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .hero-button {
   width: 260px;
@@ -127,16 +131,15 @@ body {
 }
 .list {
   gap: 25px;
+  margin-right: 874px;
 }
 .hero-pic {
   width: 30px;
   height: 30px;
 }
-/* blockquote */
-.blockquote {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+/* quote-salli */
+.quote-salli {
+  text-align: center;
   width: 1440px;
   height: 350px;
   margin: 0 auto;
@@ -182,6 +185,7 @@ body {
   height: 240px;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
 .language-title {
   padding-top: 58px;
   padding-bottom: 45px;
