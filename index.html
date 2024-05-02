@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-flex">
+      <div class="container header header-flex">
         <a href="./index.html"
           ><img src="./img/avatar.png" alt="Avatar" class="logo"
         /></a>
@@ -33,16 +33,16 @@
           </ul>
         </nav>
         <button type="button" class="header-button">Увійти</button>
+        <ul class="header-container header-list">
+          <li><a href="#" class="link-header">ENG</a></li>
+          <li><img src="./img/Switcher.svg" alt="іконка" /></li>
+          <li><a href="#" class="link-header"> UA </a></li>
+        </ul>
       </div>
-      <ul class="header-container header-list">
-        <li><a href="#" class="link-header">ENG</a></li>
-        <li><img src="./img/Switcher.svg" alt="іконка" /></li>
-        <li><a href="#" class="link-header"> UA </a></li>
-      </ul>
     </header>
     <main>
       <section class="hero">
-        <div class="container hero-social">
+        <div class="container hero hero-social">
           <div class="list">
             <p class="hero-text">
               Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
@@ -73,16 +73,27 @@
       </section>
       <section class="quote-salli">
         <div class="container quote-salli">
-          <blockquote>
-            <p class="blockquote-text">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ”</p>
+          <blockquote class="blockquote-text">
+            <p>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ”</p>
             <p>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.</p>
             <footer class="blockquote-subtext">Джейк Саллі</footer>
           </blockquote>
           <img src="./img/bird.png" alt="bird" class="quote quote-pic" />
         </div>
       </section>
-      <section>
-        <div class="container"></div>
+      <section class="trailer">
+        <div class="trailer">
+          <iframe
+            width="1440"
+            height="741"
+            src="https://www.youtube.com/embed/d9MyW72ELq0?si=ZuDbgiN1fTkgn0jm"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
       <section class="quote-salli">
         <div class="container quote-salli">
@@ -162,6 +173,7 @@
       <a href="./index.html"
         ><img src="./img/avatar.png" alt="Avatar" class="logo"
       /></a>
+      <div class="footer-border"></div>
       <ul class="footer-list">
         <li class="item">
           <p class="footer-text">Q&A E-mail</p>
@@ -177,8 +189,12 @@
             >avatartwowcoop@gmail.com</a
           >
         </li>
+        <li>
+          <p class="footer-subtext">
+            ©2023 Avatar: The Way Of Water. All rights reserved
+          </p>
+        </li>
       </ul>
-      <!-- <div class="footer-border"></div> -->
     </footer>
   </body>
 </html>

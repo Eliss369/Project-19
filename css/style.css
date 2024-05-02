@@ -30,12 +30,18 @@ body {
   height: 150px;
   outline: 1px solid black;
   margin: 0 auto;
-  background-image: url(../img/bgi.header.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../img/bgi.header.jpg);
 }
 .header-flex {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  align-items: center;
 }
 .logo {
   width: 189px;
@@ -99,6 +105,8 @@ body {
 .arrow-pic {
   width: 152px;
   height: 40px;
+  margin-left: 263px;
+  border: 2px dashed var(--white-color);
 }
 .hero-text {
   width: 298px;
@@ -107,6 +115,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  margin-left: 210px;
 }
 .hero-list {
   margin-left: 178px;
@@ -128,10 +137,11 @@ body {
   border-radius: 45px 0px 45px 0px;
   color: #26c7ea;
   margin-top: 43.16px;
+  margin-left: 210px;
 }
 .list {
   gap: 25px;
-  margin-right: 874px;
+  margin-right: 674px;
 }
 .hero-pic {
   width: 30px;
@@ -149,7 +159,14 @@ body {
   line-height: 44px;
 }
 .blockquote-text {
-  color: var(--bgi-button-color);
+  color: var(--black-color);
+  padding-top: 75px;
+}
+.blockquote-text:hover,
+.blockquote-subtext:hover,
+.blockquote-subtext:focus,
+.blockquote-text:focus {
+  color: var(--bgc-color);
 }
 .blockquote-subtext {
   color: var(--black-color);
@@ -160,6 +177,13 @@ body {
   width: 400px;
   height: 120px;
   margin: 0 auto;
+}
+/* trailer */
+.trailer {
+  width: 1440px;
+  margin: 0 auto;
+  height: 741px;
+  align-items: center;
 }
 /* language */
 .language-list {
@@ -195,18 +219,34 @@ body {
   font-size: 24px;
 }
 /* footer */
+footer {
+  display: flex;
+  align-items: center;
+}
 .footer {
   width: 1440px;
   height: 223px;
   margin: 0 auto;
-  background-image: url(../img/bgi.header.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../img/bgi.header.jpg);
+}
+.footer-subtext {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Inter;
+  text-align: center;
+  padding-top: 25px;
 }
 .item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
+  align-items: center;
 }
+
 .border {
   border: 2px dashed var(--white-color);
   width: 269px;
@@ -215,9 +255,23 @@ body {
 .footer-link,
 .footer-text {
   color: var(--white-color);
+  font-family: Inter;
+  font-size: 20px;
 }
 .footer-border {
   width: 0px;
   height: 153px;
   border: 2px solid var(--white-color);
+  margin-right: 79px;
+}
+.logo {
+  margin-left: 204px;
+  margin-right: 81px;
+}
+.footer-list {
+  align-items: center;
+}
+.item {
+  display: flex;
+  justify-content: center;
 }
