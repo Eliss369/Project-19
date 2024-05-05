@@ -7,10 +7,10 @@
   --hover-color: #94cfff;
 }
 .container {
-  width: 1330px;
+  width: 1030px;
   height: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
   margin: 0 auto;
   outline: 1px solid red;
 }
@@ -48,14 +48,14 @@ body {
   height: 72px;
   margin-right: 168px;
 }
-.menu-item {
+.header-nav-link {
   color: var(--white-color);
   font-weight: 300;
   font-size: 20px;
   line-height: 24.4px;
 }
-.menu-item:hover,
-.menu-item:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--hover-color);
   font-weight: 600;
 }
@@ -81,17 +81,15 @@ body {
   line-height: 25px;
 }
 
-.header-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .menu {
   gap: 38px;
   margin-right: 212px;
 }
 .header-list {
-  gap: 10px;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* hero */
 .hero {
@@ -106,7 +104,6 @@ body {
   width: 152px;
   height: 40px;
   margin-left: 263px;
-  border: 2px dashed var(--white-color);
 }
 .hero-text {
   width: 298px;
@@ -145,6 +142,10 @@ body {
 }
 .hero-pic {
   width: 30px;
+  height: 30px;
+}
+.hero-pic-tube {
+  width: 50px;
   height: 30px;
 }
 /* quote-salli */
@@ -193,10 +194,16 @@ body {
   row-gap: 24px;
   justify-content: center;
 }
+.language-div {
+  width: 1240px;
+  height: 704px;
+  text-align: center;
+}
 .language-pic {
   width: 152px;
   height: 40px;
 }
+
 .language {
   height: 704px;
   width: 1440px;
@@ -208,6 +215,7 @@ body {
   width: 320px;
   height: 240px;
   background-color: rgba(255, 255, 255, 0.7);
+  flex-basis: calc((100% - 72px) / 3);
 }
 
 .language-title {
@@ -240,7 +248,7 @@ footer {
   line-height: 17px;
   font-family: Inter;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 65px;
 }
 .item {
   gap: 20px;
@@ -248,9 +256,8 @@ footer {
 }
 
 .border {
-  border: 2px dashed var(--white-color);
   width: 269px;
-  height: 0px;
+  height: 1px;
 }
 .footer-link,
 .footer-text {
@@ -261,7 +268,7 @@ footer {
 .footer-border {
   width: 0px;
   height: 153px;
-  border: 2px solid var(--white-color);
+  border: 1px solid var(--white-color);
   margin-right: 79px;
 }
 .logo {

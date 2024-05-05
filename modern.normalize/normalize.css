@@ -33,3 +33,7 @@ figure {
 blockquote {
   margin: 0;
 }
+button {
+  cursor: pointer;
+  border: none;
+}
