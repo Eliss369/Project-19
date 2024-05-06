@@ -67,6 +67,7 @@ body {
   width: 30px;
   height: 20px;
   font-family: Headland One;
+  margin-right: 10px;
 }
 .header-button {
   width: 141px;
@@ -86,11 +87,11 @@ body {
   margin-right: 212px;
 }
 .header-list {
-  gap: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* hero */
 .hero {
   width: 1440px;
@@ -117,6 +118,7 @@ body {
   margin-left: 178px;
   padding-top: 180px;
 }
+
 .hero-social {
   display: flex;
   align-items: center;
@@ -136,8 +138,10 @@ body {
   margin-left: 210px;
 }
 .list {
-  gap: 25px;
   margin-right: 674px;
+}
+.list-item {
+  margin-top: 24px;
 }
 .hero-pic {
   width: 30px;
