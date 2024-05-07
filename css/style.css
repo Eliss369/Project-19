@@ -56,7 +56,6 @@ body {
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--hover-color);
-  font-weight: 600;
 }
 .link-header {
   color: var(--white-color);
